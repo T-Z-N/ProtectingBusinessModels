@@ -299,6 +299,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Awareness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Awareness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#AwarenessCreating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#AwarenessCreating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Creating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BetterProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BetterProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BlueOceanStrategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BlueOceanStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Strategy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand">
@@ -438,10 +468,62 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Cost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostEfficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostEfficiency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostIdealPricing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostIdealPricing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Pricing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostReduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostReduction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostSituation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Creating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Creating"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerCentricApproach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerCentricApproach"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerKnowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerKnowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Knowledge"/>
     </owl:Class>
     
 
@@ -473,6 +555,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Need"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerRequirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerRequirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Requirement"/>
     </owl:Class>
     
 
@@ -548,6 +638,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#EffectiveBusinessModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#EffectiveBusinessModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ExpertKnowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ExpertKnowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Knowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factor"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factory -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factory">
@@ -597,9 +709,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Guideline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Guideline"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#GuidelineCreating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#GuidelineCreating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Creating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#HighQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#HighQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Quality"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Human -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#IncreasingValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#IncreasingValue"/>
     
 
 
@@ -621,6 +761,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Internal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Internal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#InternalTraining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#InternalTraining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Training"/>
     </owl:Class>
     
 
@@ -659,6 +813,12 @@
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Introduction -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Introduction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Knowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Knowledge"/>
     
 
 
@@ -868,6 +1028,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Pricing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Pricing"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process"/>
@@ -976,10 +1142,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Quality"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QualityDifferentiation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QualityDifferentiation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Differentiation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QualityFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QualityFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factor"/>
     </owl:Class>
     
 
@@ -1022,9 +1202,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ReducingCost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ReducingCost"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Relationship -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Requirement"/>
     
 
 
@@ -1093,6 +1285,20 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Synthetic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Synthetic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#SyntheticInnovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#SyntheticInnovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Innovation"/>
     </owl:Class>
     
 
@@ -1173,6 +1379,12 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Name"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Training"/>
     
 
 
@@ -1320,6 +1532,20 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Service"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UnmatchedCostSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UnmatchedCostSituation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CostSituation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Value"/>
     
 
 
