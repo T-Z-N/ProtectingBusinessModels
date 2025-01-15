@@ -1,0 +1,1404 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection/"
+     xml:base="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-117="http://www.semanticweb.org/p42770/ontologies/2025/0/untitled-ontology-117#"
+     xmlns:BusinessModelProtection="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#buy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#buy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#derivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#derivedFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasizedIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasizedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasizedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#faithful -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#faithful">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#fulfill -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#fulfill">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#give -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#give">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hide -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hide">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#introduce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#introduce">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#manage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#manage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#needsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#needsTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#occursIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#occursIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#performedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#performedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#produce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#produce">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#protect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#protect">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#purchase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#purchase">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#represent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#represent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#resultsIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#resultsIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#sell -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#sell"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#visit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#visit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasQuickness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasQuickness">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasStrongness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasStrongness">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasTransparency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasTransparency">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#newInMarket -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#newInMarket">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Advantage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Advantage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Attribute">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasA"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TradeName"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#represent"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Product"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TradeName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Building"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessLocation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Location"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasA"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessVisitingProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessVisitingProcess">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#VisitingProcess"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#occursIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessLocation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#VisitingProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessVisitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessVisitor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Visitor"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#visit"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessLocation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Visitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CommunicationProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CommunicationProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ConstructionProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ConstructionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerLoyalty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerLoyalty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Loyalty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerNeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerNeed">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Need"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#needsTo"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Need"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CyberAttack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CyberAttack"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CyberSecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CyberSecurity">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#protect"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CyberAttack"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plan"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedFor"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ConstructionProcess"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManufacturingProcess"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#derivedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Attribute"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#FulfillmentOfCustomerNeeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#FulfillmentOfCustomerNeeds">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#fulfill"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CustomerNeed"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#performedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Fullfilment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Fullfilment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Fullfilment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Innovation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Introduction"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#introduce"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#NewCommodity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#occursIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Market"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Intransparent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Intransparent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Transparent"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#IntransparentDesign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#IntransparentDesign">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasA"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Intransparent"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Introduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Introduction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Location">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Point"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#occursIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Space"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Loyal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Loyal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#LoyalCustomer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#LoyalCustomer">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Loyal"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Loyalty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Loyalty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManufacturingProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManufacturingProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Market -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Market"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#MarketingStrategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#MarketingStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Name">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#give"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Need -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Need">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#needsTo"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#NewCommodity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#NewCommodity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#newInMarket"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Factory"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Workshop"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedFor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManufacturingProcess"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#PlantSecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#PlantSecurity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Security"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#protect"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#PlatformBusinessModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#PlatformBusinessModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Point"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Product">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#produce"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Attribute"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasA"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Product"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductFeature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductFeature">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#derivedFrom"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Proposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Proposition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Protection">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#protect"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QuickInnovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QuickInnovation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Innovation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasQuickness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Innovation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#RawMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#RawMaterial">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Material"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManufacturingProcess"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Secret -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Secret">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hide"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Security">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#protect"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Space"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Strategy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#StrongBrand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#StrongBrand">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasStrongness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TechnicalAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TechnicalAttribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TechnicalFeature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TechnicalFeature">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#derivedFrom"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TechnicalAttribute"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Trade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Trade">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#buy"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#sell"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Commodity"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TradeName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#TradeName">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Name"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#give"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Transparent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Transparent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasTransparency"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#USPProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#USPProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueCommunicationProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueCommunicationProcess">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CommunicationProcess"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CommunicationProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueCommunicationProposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueCommunicationProposition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Proposition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasize"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#CommunicationProcess"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Proposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueFeature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueFeature">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueRawMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueRawMaterial">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#RawMaterial"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#RawMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueSellingProposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueSellingProposition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Proposition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasize"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueFeature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueService">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Service"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasUniqueness"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#VisitingProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#VisitingProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Visitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Visitor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#visit"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Location"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#VisitorManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#VisitorManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Workshop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Workshop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Bearing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Bearing">
+        <BusinessModelProtection:hasA rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute1"/>
+        <BusinessModelProtection:newInMarket rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</BusinessModelProtection:newInMarket>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business"/>
+        <BusinessModelProtection:hide rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Secret1"/>
+        <BusinessModelProtection:produce rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Bearing"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business1"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#hasTransparency"/>
+        <owl:targetValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:targetValue>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plan"/>
+        <BusinessModelProtection:usedFor rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManPro1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Desiretobuyhouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Desiretobuyhouse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#L -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#L">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Proposition"/>
+        <BusinessModelProtection:emphasize rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductFeature1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#MakingSomeProcess -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#MakingSomeProcess">
+        <BusinessModelProtection:fulfill rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Desiretobuyhouse"/>
+        <BusinessModelProtection:performedBy rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Business1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManPro1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManPro1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ManufacturingProcess"/>
+        <BusinessModelProtection:produce rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Bearing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductFeature1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductFeature1">
+        <BusinessModelProtection:derivedFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Secret1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Secret1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#SecurityGuy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#SecurityGuy">
+        <BusinessModelProtection:protect rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Bearing"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
