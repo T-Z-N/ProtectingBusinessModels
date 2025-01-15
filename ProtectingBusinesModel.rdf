@@ -37,6 +37,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#differentiate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#differentiate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasize -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#emphasize">
@@ -317,6 +325,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BrandDifferentiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BrandDifferentiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Differentiation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Building -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Building"/>
@@ -503,6 +519,31 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Differentiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Differentiation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DifferentiationStrategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DifferentiationStrategy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Strategy"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#usedFor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Differentiation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Strategy"/>
     </owl:Class>
     
 
@@ -899,6 +940,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProtectedBrand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProtectedBrand">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#protect"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Protection -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Protection">
@@ -908,6 +972,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
             </owl:Restriction>
         </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QualityDifferentiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#QualityDifferentiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Differentiation"/>
     </owl:Class>
     
 
@@ -1308,7 +1380,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Bearing">
         <BusinessModelProtection:hasA rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ProductAttribute1"/>
+        <BusinessModelProtection:protect rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand1"/>
         <BusinessModelProtection:newInMarket rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</BusinessModelProtection:newInMarket>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Brand"/>
     </owl:NamedIndividual>
     
 
