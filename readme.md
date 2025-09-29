@@ -42,8 +42,6 @@ Refresh the page, if the visualizations do not load.
 
 #### Analysis Scripts
 - `embedding_analysis.py` - Computational text analysis using sentence transformers
-- `graph_construction.py` - Network analysis and clique detection algorithms
-- `taxonomy_builder.py` - Hierarchy construction and relationship classification
 
 ### 📚 Documentation
 
