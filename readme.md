@@ -23,7 +23,7 @@ Business models are critical but vulnerable assets in today's innovation-driven 
   - Used for identifying clusters of semantically related mechanisms
 
 #### Final Taxonomy Browser
-- **File**: `taxonomy_visualization.html`
+- **Link**: [taxonomy_visualization](https://t-z-n.github.io/PBM_Visualization/)
 - **Purpose**: Interactive exploration of the validated taxonomy
 - **Features**:
   - Hierarchical structure navigation
