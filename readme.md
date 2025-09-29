@@ -1,9 +1,3 @@
-T-Z-N: Write a readme, where there will be clique tool and also the framework. Check the paper.tex and write the readme according to what was mentioned in the paper.tex. 
-
-GitHub Copilot: # The Architecture of Defense: A Systemic Framework for Protecting Business Models
-
-This repository contains the research artifacts and tools from our study on business model protection strategies. We developed and validated a comprehensive taxonomy that transforms expert insights into a structured framework for understanding how companies can systematically protect their business models.
-
 ## Overview
 
 Business models are critical but vulnerable assets in today's innovation-driven economy. While practitioners employ diverse defensive tactics and scholars have produced valuable research on specific protection strategies, this knowledge remains fragmented. Our research addresses this gap by developing the first comprehensive taxonomy of business model protection mechanisms.
@@ -139,7 +133,7 @@ If you use this framework or tools in your research, please cite:
 ```bibtex
 @article{tuzun2024architecture,
   title={The Architecture of Defense: A Systemic Framework for Protecting Business Models},
-  author={Tüzün, Alican and Bachmann, Nadine and Brunner, Manuel and Jodlbauer, Herbert},
+  author={},
   journal={[Journal Name]},
   year={2024}
 }
@@ -149,13 +143,4 @@ If you use this framework or tools in your research, please cite:
 
 For questions about this research or collaboration opportunities:
 
-- **Alican Tüzün** - [alican.tuezuen@fh-steyr.at](mailto:alican.tuezuen@fh-steyr.at)
-- **Research Centre**: Josef Ressel Centre for Data-Driven Business Model Innovation, University of Applied Sciences Upper Austria
-
-## Acknowledgments
-
-The financial support by the Austrian Federal Ministry of Digital and Economic Affairs, the National Foundation for Research, Technology and Development, and the Christian Doppler Research Association is gratefully acknowledged.
-
----
-
-*This research contributes to both academic understanding and practical application of business model protection strategies. The open-source tools and validated taxonomy provide a foundation for future research and strategic planning in protecting valuable business models.*
+XXXXXXX
