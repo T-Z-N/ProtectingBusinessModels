@@ -1,0 +1,620 @@
+{
+  "name": "Protecting Business Models RL",
+  "level": "RL",
+  "legend": {
+    "C/A": "Composition / Aggregation — child is part of parent",
+    "A": "Abstraction / Specification — child is a type/instance of parent",
+    "M/E": "Means / End — child is a means to achieve the parent"
+  },
+  "children": [
+    {
+      "name": "Unique differentiating features",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Possession of unique, irreplicable resources", "level": "D2", "rel": "M/E" },
+        { "name": "User-friendliness more than competitors", "level": "D2", "rel": "A" },
+        { "name": "Marketing focused on unique, differentiating features", "level": "D2", "rel": "M/E" },
+        { "name": "Unique Communication Proposition (UCP)", "level": "D2", "rel": "M/E" },
+        { "name": "Utilization of unique and difficult-to-imitate components", "level": "D2", "rel": "M/E" },
+        {
+          "name": "Unique Value Proposition",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Generation of unique, additional value which secures customer willingness to pay", "level": "D3", "rel": "C/A" },
+            { "name": "Unique Service Value Proposition", "level": "D3", "rel": "A" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Structural Sophistication and Complexity",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Increasing complexity of the value proposition", "level": "D2", "rel": "M/E" },
+        { "name": "Massive capital investment in unique and extensive infrastructure", "level": "D2", "rel": "M/E" },
+        { "name": "Complex mechanisms integrated into the revenue stream", "level": "D2", "rel": "C/A" },
+        {
+          "name": "Sophistication and adaptability of the revenue structure",
+          "level": "D2",
+          "rel": "A",
+          "children": [
+            { "name": "Strategic mix of multiple revenue streams", "level": "D3", "rel": "M/E" },
+            { "name": "Flexibility and creativity in revenue models", "level": "D3", "rel": "C/A" },
+            { "name": "Revenue streams with technical solutions", "level": "D3", "rel": "A" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Brand Equity",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Strong brand", "level": "D2", "rel": "C/A" },
+        { "name": "Brand story", "level": "D2", "rel": "M/E" }
+      ]
+    },
+
+    {
+      "name": "Customer Loyalty",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        {
+          "name": "Customer Lock-In",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            {
+              "name": "Barriers to customer exit",
+              "level": "D3",
+              "rel": "M/E",
+              "children": [
+                { "name": "Customer lock-in and high switching costs created through integrated ecosystems", "level": "D3", "rel": "A" },
+                { "name": "Investment in binding future customers, creating switching costs", "level": "D3", "rel": "M/E" },
+                { "name": "Customer lock-in via continuous expansion of a defensible core product", "level": "D3", "rel": "A" }
+              ]
+            }
+          ]
+        },
+        { "name": "Early customer acquisition and fostering product familiarity", "level": "D2", "rel": "M/E" }
+      ]
+    },
+
+    {
+      "name": "Strategic Relationship Advantage",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        {
+          "name": "Joint R&D collaborations with key customers",
+          "level": "D2",
+          "rel": "M/E",
+          "children": [
+            { "name": "Temporary exclusivity for co-development with key customers to gain a speed advantage", "level": "D3", "rel": "C/A" },
+            { "name": "Strategic networking for exclusive resources/opportunities", "level": "D3", "rel": "M/E" }
+          ]
+        },
+        {
+          "name": "Strategic Partnership Management",
+          "level": "D2",
+          "rel": "M/E",
+          "children": [
+            { "name": "Partnerships with large, dominant companies", "level": "D3", "rel": "A" },
+            { "name": "Strategic partnerships by combining complementary strengths", "level": "D3", "rel": "A" },
+            { "name": "Effective partnership management, bridging cultural gaps, aligning perspectives with a clear business case", "level": "D3", "rel": "C/A" },
+            { "name": "Leveraging market power and controlling key partnerships", "level": "D3", "rel": "C/A" },
+            { "name": "Knowledge sharing and collaboration within a non-competing partner network", "level": "D3", "rel": "C/A" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Business Model Lifecycle Management",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Innovation strategy focused on simultaneous value increase and cost reduction", "level": "D2", "rel": "C/A" },
+        {
+          "name": "Systematic Business Model Implementation",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            {
+              "name": "Business Model Definition and Structure",
+              "level": "D3",
+              "rel": "M/E",
+              "children": [
+                {
+                  "name": "Value Proposition Design",
+                  "level": "D4",
+                  "rel": "C/A",
+                  "children": [
+                    { "name": "Structuring the value proposition as a system with high number of interconnected components", "level": "D5", "rel": "C/A" }
+                  ]
+                },
+                { "name": "Acting as 'man in the middle' in two-sided markets", "level": "D4", "rel": "A" },
+                { "name": "Deliberately decentralizing value chain structure geographically or organizationally.", "level": "D4", "rel": "A" },
+                { "name": "Technical solutions in value creation architecture", "level": "D4", "rel": "C/A" },
+                { "name": "Embedding the core competence in products/services and operational structure of the business model", "level": "D4", "rel": "M/E" },
+                { "name": "Unique Selling Proposition (USP) as the basis for the business model", "level": "D4", "rel": "M/E" },
+                { "name": "Avoiding easily replicable business model types", "level": "D4", "rel": "M/E" },
+                { "name": "Specific, proprietary data within the business model", "level": "D4", "rel": "C/A" },
+                { "name": "Data-driven services viable only with proprietary data", "level": "D4", "rel": "C/A" },
+                { "name": "Creating 'black boxes' / Opacity within the business model", "level": "D4", "rel": "M/E" },
+                { "name": "Decentralized, modular, and complex business model", "level": "D4", "rel": "A" },
+                { "name": "Modularization of product/business model", "level": "D4", "rel": "A" },
+                { "name": "Alignment of employee evaluation and management with business model requirements", "level": "D4", "rel": "M/E" },
+                { "name": "Business model combining deep customer knowledge, operational excellence, and cost efficiency", "level": "D4", "rel": "A" },
+                { "name": "Multilayer business model integrating distinct offerings", "level": "D4", "rel": "A" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Comprehensive Legal/IP Strategy & Enforcement",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Enhancing value of compliance through creating competitor indifference to local regulations", "level": "D2", "rel": "C/A" },
+        {
+          "name": "Regulatory Entry Barriers",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Adaptive compliance with local regulations", "level": "D3", "rel": "M/E" },
+            { "name": "Mandatory regulatory approvals and licenses", "level": "D3", "rel": "A" },
+            {
+              "name": "Specific regulatory landscape",
+              "level": "D3",
+              "rel": "A",
+              "children": [
+                { "name": "Country-specific legal and regulatory environment", "level": "D4", "rel": "A" },
+                { "name": "Specific government regulations", "level": "D4", "rel": "C/A" }
+              ]
+            }
+          ]
+        },
+        { "name": "Alignment of geographical operational location with patent enforcement jurisdiction", "level": "D2", "rel": "M/E" },
+        { "name": "Internal legal departments to enforce protective measures", "level": "D2", "rel": "M/E" },
+        { "name": "Sufficient financial resources for legal defense", "level": "D2", "rel": "M/E" },
+        {
+          "name": "Proactive Patenting",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Broad patenting, including peripheral areas", "level": "D3", "rel": "A" },
+            { "name": "Proactive patenting of alternative solutions/workarounds", "level": "D3", "rel": "A" }
+          ]
+        },
+        {
+          "name": "Portfolio of diverse IP rights",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Design protection", "level": "D3", "rel": "C/A" },
+            { "name": "Securing domain names and trademark rights", "level": "D3", "rel": "C/A" },
+            { "name": "Patent portfolio", "level": "D3", "rel": "C/A" },
+            { "name": "Trade Secrets", "level": "D3", "rel": "C/A" }
+          ]
+        },
+        {
+          "name": "Formalized Exclusivity",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            {
+              "name": "Formal IP Rights",
+              "level": "D3",
+              "rel": "A",
+              "children": [
+                { "name": "Formal IP rights on the core technical process.", "level": "D4", "rel": "A" },
+                { "name": "Formal IP rights (e.g trademarks) representing the Unique Selling Point (USP)", "level": "D4", "rel": "A" }
+              ]
+            },
+            {
+              "name": "Formalized exclusive arrangements",
+              "level": "D3",
+              "rel": "A",
+              "children": [
+                {
+                  "name": "Contractual Exclusivity and Control",
+                  "level": "D4",
+                  "rel": "A",
+                  "children": [
+                    { "name": "Contractual exclusivity with key customers", "level": "D5", "rel": "A" },
+                    { "name": "Exclusive contracts with key partners", "level": "D5", "rel": "A" },
+                    { "name": "Exclusive contracts with dominant market players", "level": "D5", "rel": "A" },
+                    { "name": "Comprehensive and clearly defined partner contracts", "level": "D5", "rel": "M/E" }
+                  ]
+                },
+                { "name": "Exclusive partnerships", "level": "D4", "rel": "A" },
+                { "name": "Legally enforced exclusivity in collaborations", "level": "D4", "rel": "A" }
+              ]
+            }
+          ]
+        },
+        { "name": "Comprehensive and responsible legal strategy", "level": "D2", "rel": "C/A" }
+      ]
+    },
+
+    {
+      "name": "Dynamic Capability & Adaptability",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Remaining effective in markets through continuous adaptation and strategic flexibility", "level": "D2", "rel": "C/A" },
+        {
+          "name": "Innovation & Learning Processes",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Analyzing patents from unrelated industries for innovation", "level": "D3", "rel": "M/E" },
+            { "name": "Cross-disciplinary learning", "level": "D3", "rel": "M/E" }
+          ]
+        },
+        { "name": "Continuous change", "level": "D2", "rel": "C/A" },
+        {
+          "name": "Adaptive Protection Management Disposition",
+          "level": "D2",
+          "rel": "A",
+          "children": [
+            { "name": "Context-dependent (company's size, industry size) and effective protection mechanisms", "level": "D3", "rel": "C/A" },
+            {
+              "name": "Protection Management",
+              "level": "D3",
+              "rel": "C/A",
+              "children": [
+                {
+                  "name": "Deep analysis of protection possibilities",
+                  "level": "D4",
+                  "rel": "C/A",
+                  "children": [
+                    { "name": "The interplay of multiple protection reinforcing factors", "level": "D5", "rel": "C/A" }
+                  ]
+                },
+                {
+                  "name": "Strategic Prioritization of Protection",
+                  "level": "D4",
+                  "rel": "C/A",
+                  "children": [
+                    { "name": "Strategic selectivity to choose which business model elements to protect", "level": "D5", "rel": "C/A" },
+                    { "name": "Strategic focus of protection efforts", "level": "D5", "rel": "C/A" },
+                    {
+                      "name": "Focused Protection",
+                      "level": "D5",
+                      "rel": "A",
+                      "children": [
+                        { "name": "Systematic placement of protective rights on business model elements", "level": "D6", "rel": "M/E" },
+                        { "name": "Targeted application of mechanisms on core business model elements impacting value/revenue", "level": "D6", "rel": "M/E" },
+                        { "name": "Focusing protection efforts on the crucial, high-impact business model elements", "level": "D6", "rel": "C/A" },
+                        { "name": "Historical analysis of the business model to enable targeted protection strategies", "level": "D6", "rel": "M/E" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dynamic Capability",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            {
+              "name": "Using a dynamic and adaptable value proposition",
+              "level": "D3",
+              "rel": "A",
+              "children": [
+                { "name": "Enabling customer-driven adaptation/'misuse'", "level": "D4", "rel": "M/E" }
+              ]
+            },
+            { "name": "Adaptability", "level": "D3", "rel": "C/A" },
+            { "name": "Speed and Agility in adaptation and outpacing competition", "level": "D3", "rel": "C/A" },
+            {
+              "name": "Competetive Pace",
+              "level": "D3",
+              "rel": "C/A",
+              "children": [
+                { "name": "Rapid Time-to-Market combined with strong branding", "level": "D4", "rel": "C/A" },
+                { "name": "Strategic timing of market entry", "level": "D4", "rel": "M/E" },
+                { "name": "High speed of innovation and new feature releases", "level": "D4", "rel": "A" },
+                { "name": "High speed of continuous innovation", "level": "D4", "rel": "A" },
+                { "name": "Sustained speed, continuous development, and using dynamic first-mover advantage", "level": "D4", "rel": "A" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Securing Human Capital Advantage",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "High-quality, effective teams", "level": "D2", "rel": "C/A" },
+        { "name": "Employee retention", "level": "D2", "rel": "M/E" },
+        { "name": "Change management and fostering buy-in to overcome internal resistance", "level": "D2", "rel": "M/E" },
+        { "name": "Innovative company culture", "level": "D2", "rel": "M/E" },
+        {
+          "name": "Supportive Organizational Context",
+          "level": "D2",
+          "rel": "M/E",
+          "children": [
+            {
+              "name": "Organization controls and culture",
+              "level": "D3",
+              "rel": "C/A",
+              "children": [
+                { "name": "Internal training and data handling policies", "level": "D4", "rel": "C/A" },
+                { "name": "Employee education on information confidentiality", "level": "D4", "rel": "C/A" }
+              ]
+            },
+            {
+              "name": "Organizational environment",
+              "level": "D3",
+              "rel": "C/A",
+              "children": [
+                { "name": "Supportive corporate culture and shared vision", "level": "D4", "rel": "C/A" },
+                { "name": "The right organizational mindset", "level": "D4", "rel": "C/A" },
+                { "name": "Long-term cultivation of aligned organizational culture and attitude", "level": "D4", "rel": "M/E" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Knowledge and Insight Advantage",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        {
+          "name": "Customer Insight Advantage",
+          "level": "D2",
+          "rel": "A",
+          "children": [
+            { "name": "Deep understanding of customer needs", "level": "D3", "rel": "C/A" },
+            { "name": "Differentiation between customer needs and requirements", "level": "D3", "rel": "C/A" },
+            { "name": "Customer-centric perspective", "level": "D3", "rel": "M/E" }
+          ]
+        },
+        {
+          "name": "Knowledge",
+          "level": "D2",
+          "rel": "A",
+          "children": [
+            { "name": "Specialized expert knowledge as core", "level": "D3", "rel": "A" },
+            { "name": "Accumulated, tacit knowledge and experience", "level": "D3", "rel": "A" },
+            { "name": "A deep understanding of critical business model elements to design effective protection", "level": "D3", "rel": "A" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Data Dominance & Control",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Prevention of data and web scraping", "level": "D2", "rel": "M/E" },
+        { "name": "Protection of data patterns", "level": "D2", "rel": "M/E" },
+        {
+          "name": "Data Dominance",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Data advantage", "level": "D3", "rel": "C/A" },
+            { "name": "Possession of the largest/most relevant dataset", "level": "D3", "rel": "M/E" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Specialize and Dominate Strategy",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Exclusive geographic specialization and leveraging local identity in branding", "level": "D2", "rel": "A" },
+        { "name": "Definition of an exclusive customer group and achieving deep specialization on that group", "level": "D2", "rel": "A" },
+        { "name": "Focus and domination of a limited area / Niche strategy", "level": "D2", "rel": "A" },
+        { "name": "Deep localization and intense service tailoring to a specific local market", "level": "D2", "rel": "A" }
+      ]
+    },
+
+    {
+      "name": "Ecosystem Strategy & Positioning",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        {
+          "name": "Proprietary digital ecosystem",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Dominant digital platforms", "level": "D3", "rel": "C/A" }
+          ]
+        },
+        { "name": "Standardization as Positioning Strategy", "level": "D2", "rel": "A" },
+        {
+          "name": "Controlled Ecosystem Construction",
+          "level": "D2",
+          "rel": "M/E",
+          "children": [
+            { "name": "Building a product ecosystem around a protected core", "level": "D3", "rel": "C/A" }
+          ]
+        },
+        { "name": "A niche, unattractive or irrelevant business ecosystem sections to large competitors", "level": "D2", "rel": "M/E" },
+        {
+          "name": "Business Ecosystem Mastery and Integration",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "A dominant position within a relevant business ecosystem", "level": "D3", "rel": "C/A" },
+            {
+              "name": "Business Ecosystem Management",
+              "level": "D3",
+              "rel": "M/E",
+              "children": [
+                { "name": "Strategic use of open-source/open interfaces", "level": "D4", "rel": "M/E" },
+                { "name": "Adapting the models/mechanisms from unrelated business ecosystems", "level": "D4", "rel": "M/E" },
+                { "name": "Generating dependencies and switching costs within the business ecosystem", "level": "D4", "rel": "A" },
+                { "name": "Monitoring business ecosystems", "level": "D4", "rel": "C/A" }
+              ]
+            },
+            { "name": "Established partner access and deep business ecosystem integration", "level": "D3", "rel": "C/A" },
+            { "name": "Orchestrating numerous specialized partners within complex business ecosystem", "level": "D3", "rel": "M/E" },
+            { "name": "Superior competence within the business ecosystem", "level": "D3", "rel": "C/A" }
+          ]
+        },
+        {
+          "name": "Business Ecosystem Entrenchment",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            { "name": "Integration with established platforms/apps via cooperation", "level": "D3", "rel": "M/E" },
+            { "name": "Exclusive collaborations with door openers / Key ecosystem players", "level": "D3", "rel": "M/E" },
+            {
+              "name": "First-mover advantage in partnering with digital leaders",
+              "level": "D3",
+              "rel": "M/E",
+              "children": [
+                { "name": "Partnerships with digital leaders", "level": "D4", "rel": "M/E" }
+              ]
+            },
+            {
+              "name": "Establishment and scaling of network effects for the company",
+              "level": "D3",
+              "rel": "M/E",
+              "children": [
+                { "name": "Ecosystem development and achieving critical mass (network effects)", "level": "D4", "rel": "M/E" },
+                { "name": "Designing products where value increases with use", "level": "D4", "rel": "M/E" },
+                { "name": "Platform business model with strong network effects", "level": "D4", "rel": "M/E" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Execution Distinction",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        {
+          "name": "Execution Capability",
+          "level": "D2",
+          "rel": "M/E",
+          "children": [
+            {
+              "name": "Operational Excellence and Quality",
+              "level": "D3",
+              "rel": "C/A",
+              "children": [
+                { "name": "High data quality", "level": "D4", "rel": "C/A" }
+              ]
+            },
+            { "name": "Unique implementation capability", "level": "D3", "rel": "C/A" },
+            { "name": "Superior service quality and operational agility", "level": "D3", "rel": "C/A" },
+            { "name": "Extreme efficiency and being best in class", "level": "D3", "rel": "C/A" },
+            { "name": "The ability to build and execute comprehensive operational systems", "level": "D3", "rel": "C/A" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Confidentiality & Information Control",
+      "level": "D1",
+      "rel": "M/E",
+      "children": [
+        { "name": "Precautions against former employee competition", "level": "D2", "rel": "M/E" },
+        {
+          "name": "Information Boundary Control",
+          "level": "D2",
+          "rel": "C/A",
+          "children": [
+            {
+              "name": "Confidentiality Management",
+              "level": "D3",
+              "rel": "C/A",
+              "children": [
+                { "name": "Employee buy-in and maintaining internal confidentiality maintenance", "level": "D4", "rel": "C/A" },
+                {
+                  "name": "Robust, Integrated, and Strategic Security and Information Control",
+                  "level": "D4",
+                  "rel": "C/A",
+                  "children": [
+                    { "name": "Robust cybersecurity and data protection measures", "level": "D5", "rel": "C/A" },
+                    { "name": "Robust information control and operational security", "level": "D5", "rel": "C/A" },
+                    {
+                      "name": "Strategic Information Control",
+                      "level": "D5",
+                      "rel": "C/A",
+                      "children": [
+                        { "name": "Strategic misdirection", "level": "D6", "rel": "A" },
+                        {
+                          "name": "Transparency Control",
+                          "level": "D6",
+                          "rel": "C/A",
+                          "children": [
+                            { "name": "Strategic intransparency by selective information disclosure/concealment", "level": "D7", "rel": "M/E" }
+                          ]
+                        },
+                        { "name": "Deliberate information policy / Creating information asymmetry", "level": "D6", "rel": "M/E" },
+                        {
+                          "name": "Strategic Obscurity",
+                          "level": "D6",
+                          "rel": "C/A",
+                          "children": [
+                            { "name": "Intentional process 'deadlocks' hindering imitation", "level": "D7", "rel": "M/E" },
+                            { "name": "Intentional intransparency and complexity in the business model", "level": "D7", "rel": "M/E" },
+                            { "name": "Camouflaging the business model", "level": "D7", "rel": "M/E" }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Strategic Application of Non-Disclosure Agreements",
+                  "level": "D4",
+                  "rel": "M/E",
+                  "children": [
+                    { "name": "Strategic and contextual application Non-Disclosure Agreements (NDA's)", "level": "D5", "rel": "C/A" },
+                    { "name": "Non-Disclosure Agreements (NDAs)", "level": "D5", "rel": "M/E" }
+                  ]
+                },
+                {
+                  "name": "Proprietary Information Control",
+                  "level": "D4",
+                  "rel": "C/A",
+                  "children": [
+                    { "name": "Control over information that facilitates reverse engineering", "level": "D5", "rel": "A" },
+                    { "name": "Scarce, proprietary, or hard-to-verify data", "level": "D5", "rel": "A" },
+                    { "name": "Limiting access to valuable data", "level": "D5", "rel": "M/E" },
+                    { "name": "Strategic data localization", "level": "D5", "rel": "M/E" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
