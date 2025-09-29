@@ -13,6 +13,8 @@ Business models are critical but vulnerable assets in today's innovation-driven 
 
 ### 📊 Interactive Visualizations
 
+Refresh the page, if the visualizations do not load.
+
 #### Clique Analysis Tool
 - **File**: [clique_tool](https://t-z-n.github.io/Semantic-Similarity-Visualizer/)
 - **Purpose**: Interactive graph analysis tool used during our methodology
@@ -53,7 +55,7 @@ Business models are critical but vulnerable assets in today's innovation-driven 
 ### Clique Analysis Tool
 ```bash
 # Open the interactive clique tool
-open clique_tool
+open [clique_tool](https://t-z-n.github.io/Semantic-Similarity-Visualizer/)
 
 # Adjust the similarity threshold using the slider
 # Observe clique formation at different threshold levels
@@ -63,7 +65,7 @@ open clique_tool
 ### Taxonomy Browser
 ```bash
 # Explore the final validated taxonomy
-open taxonomy_visualization
+open [taxonomy_visualization](https://t-z-n.github.io/PBM_Visualization/)
 
 # Navigate through the hierarchical structure
 # Click on nodes to explore relationships
