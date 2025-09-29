@@ -14,7 +14,7 @@ Business models are critical but vulnerable assets in today's innovation-driven 
 ### 📊 Interactive Visualizations
 
 #### Clique Analysis Tool
-- **File**: `clique_tool.html` (D3.js visualization)
+- **File**: [clique_tool](https://t-z-n.github.io/Semantic-Similarity-Visualizer/)
 - **Purpose**: Interactive graph analysis tool used during our methodology
 - **Features**:
   - Dynamic threshold adjustment for similarity analysis
