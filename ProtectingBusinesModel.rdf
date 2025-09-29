@@ -404,6 +404,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModelComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModelComponent"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessVisitingProcess -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessVisitingProcess">
@@ -587,6 +593,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DataAdvantage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DataAdvantage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Advantage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DataEncyription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DataEncyription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Encryption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DataProtection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DataProtection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Protection"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Design">
@@ -638,11 +674,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DisclosingBusinessModelComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#DisclosingBusinessModelComponent"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#EffectiveBusinessModel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#EffectiveBusinessModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModel"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Encryption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Encryption"/>
     
 
 
@@ -858,6 +906,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#LoyalEmployee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#LoyalEmployee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Loyal"/>
     </owl:Class>
     
 
@@ -1220,6 +1276,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ReverseEngineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#ReverseEngineering"/>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Secret -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Secret">
@@ -1414,6 +1476,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueBusinesModelComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueBusinesModelComponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#BusinessModelComponent"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueCommunicationProcess -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#UniqueCommunicationProcess">
@@ -1580,6 +1650,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#VisitorManagement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#Management"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#WebScrapping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p42770/ontologies/2025/0/BusinessModelProtection#WebScrapping"/>
     
 
 
